@@ -16,7 +16,7 @@ body {
 }
 
 /* Weather Container Styling */
-.weather-container {
+.weather-container { 
     background: rgba(167, 135, 135, 0.9);
     padding: 40px;
     border-radius: 30px;
