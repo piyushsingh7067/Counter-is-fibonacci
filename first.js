@@ -4,9 +4,11 @@
 // async task
 // weather:
 
+// Hello
+
 
  const Promises = fetch(`http://api.weatherapi.com/v1/current.json?key=2185b42cb04e41d6ae075514252001&q=London&aqi=yes`)
-// console.log(Promises)
+ console.log(Promises)
 
  .then(response=>response.json())
  .then(data=>console.log(data.current.temp_f))       // temp change hota rahega
